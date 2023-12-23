@@ -1,0 +1,17 @@
+.search__flex{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.card{
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1270px;
+
+  }
+}
