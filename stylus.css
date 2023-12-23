@@ -1,17 +1,36 @@
 .search__flex{
+    float: left;
     display: flex;
-    justify-items: center;
+    justify-content: center;
     align-items: center;
+    width: 100%;
 }
 .card{
-    height: 140px;
+    height: 80px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+.box_1{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+@media (min-width: 800px) {
+  .search__flex{
+    width: auto;
+  }
+  .card{
+    height: 140px;
+  }
+  /* .box_1{
+    margin-top: 75px;
+  } */
+}
 @media (min-width: 1200px) {
   .container {
     width: 1270px;
-
   }
+  .search__flex{
+    float: none;
+    }
 }
